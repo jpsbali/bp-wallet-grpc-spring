@@ -36,7 +36,7 @@ Function        | Input           | Output  | Error |
 * Spring BOOT based Client Which makes Concurrent Transaction Request via GRPC Stub over HTTP2 to BPWS.
 * The wallet client will emulate a number of users concurrently using the wallet. 
 * The wallet client must connect to the wallet server over gRPC. 
-* The client eliminating users doing rounds (a sequence of events). 
+* The client simulates users doing rounds (a sequence of events). 
 * Whenever a round is needed it is picked at random from the following list of available rounds
 
 #### Round A
